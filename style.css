@@ -313,7 +313,7 @@ footer.footer {
 
   width: 100%;
   height: 100vh;
-  background-image: url('../images/photo8.jpg');
+  background-image: url('photo8.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1093,5 +1093,6 @@ ul.no-list-style {
   filter: brightness(0) invert(1);
   vertical-align: middle;
 }
+
 
 
