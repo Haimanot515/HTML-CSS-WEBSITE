@@ -962,8 +962,11 @@ ul.no-list-style {
     overflow-wrap: break-word;
     hyphens: auto;
   }
+  
 
   /* Extra mobile refinements */
+  .hero{
+    margin-top:40px;
   .hero-text h1 {
     font-size: 1.4rem;
     line-height: 1.3;
@@ -1093,6 +1096,7 @@ ul.no-list-style {
   filter: brightness(0) invert(1);
   vertical-align: middle;
 }
+
 
 
 
