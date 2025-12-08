@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://haimanot515.github.io/HTML-CSS-WEBSITE/sitemap.xml
