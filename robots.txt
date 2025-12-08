@@ -1,4 +1,38 @@
+# Apply to all search engines
 User-agent: *
-Allow: /
 
+# Allow crawling of all main pages
+Allow: /index.html
+Allow: /about.html
+Allow: /services.html
+Allow: /portfolio.html
+Allow: /team.html
+Allow: /contact.html
+Allow: /blog.html
+Allow: /photography-tips.html
+Allow: /wedding.html
+Allow: /nature.html
+Allow: /wildlife-photography.html
+Allow: /drone-photography.html
+Allow: /exposure-triangle.html
+Allow: /portrait.html
+Allow: /photo-editing.html
+Allow: /photographer.html
+Allow: /coffee.html
+Allow: /landscape-photography.html
+Allow: /graduation.html
+Allow: /black-and-white.html
+
+# Block unnecessary or private files
+Disallow: /node_modules/
+Disallow: /drafts/
+Disallow: /test/
+Disallow: /README.md
+Disallow: /LICENSE
+Disallow: /tmp/
+Disallow: /*.psd$
+Disallow: /*.ai$
+Disallow: /*.zip$
+
+# Sitemap location
 Sitemap: https://haimanot515.github.io/HTML-CSS-WEBSITE/sitemap.xml
